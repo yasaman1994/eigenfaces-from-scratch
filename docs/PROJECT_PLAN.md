@@ -114,12 +114,12 @@ Euclidean distance و Cosine similarity ممکن است برای بعضی تصو
 
 ## تقسیم مسئولیت پیشنهادی
 
-| عضو | مسئولیت اصلی | اولین خروجی |
-|---|---|---|
-| یاسمن | یکپارچه‌سازی، README، کنترل leakage و اجرای نهایی | ساختار نوت‌بوک و checklist |
-| امین | PCA از صفر و کنترل‌های ریاضی | eigenvalues، eigenvectors و orthogonality check |
-| شکیب | projection، reconstruction و error | تصاویر بازسازی و error curve |
-| صبا | nearest neighbor و آزمایش تیم ۴ | accuracy و مقایسه Euclidean/Cosine |
+| عضو | GitHub | مسئولیت اصلی | اولین خروجی |
+|---|---|---|---|
+| یاسمن | [@yasaman1994](https://github.com/yasaman1994) | یکپارچه‌سازی، README، کنترل leakage و اجرای نهایی | ساختار نوت‌بوک و checklist |
+| امین | [@Aminbyt](https://github.com/Aminbyt) | PCA از صفر و کنترل‌های ریاضی | eigenvalues، eigenvectors و orthogonality check |
+| شکیب | [@Shakib1380](https://github.com/Shakib1380) | projection، reconstruction و error | تصاویر بازسازی و error curve |
+| صبا | [@SabaHesaraki](https://github.com/SabaHesaraki) | nearest neighbor و آزمایش تیم ۴ | accuracy و مقایسه Euclidean/Cosine |
 
 این جدول پیشنهادی است و پس از توافق اعضا قابل تغییر خواهد بود. هر بخش باید حداقل توسط یک عضو دیگر review شود.
 

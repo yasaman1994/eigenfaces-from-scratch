@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# تشخیص چهره با Eigenfaces و PCA از صفر
+# تشخیص هویت چهره با Eigenfaces و پیاده‌سازی PCA از صفر
 
 پروژه ریاضی دوره مهندسی یادگیری ماشین رهنماکالج - تیم ۴
 
@@ -108,11 +108,11 @@
 ## ساختار پروژه
 
 ```text
-Face_detection/
+eigenfaces-from-scratch/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── face_detection_project.ipynb
+├── eigenfaces_from_scratch.ipynb
 ├── docs/
 │   ├── PROJECT_PLAN.md
 │   └── LEARNING_GUIDE.md
@@ -131,16 +131,16 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-سپس فایل `face_detection_project.ipynb` را باز و Run All کنید.
+سپس فایل `eigenfaces_from_scratch.ipynb` را باز و Run All کنید.
 
 ## اعضای تیم
 
 | عضو | GitHub username | مسئولیت پیشنهادی |
 |---|---|---|
-| یاسمن | `yasaman1994` | یکپارچه‌سازی، مستندسازی و کنترل اجرای نهایی |
-| امین | تکمیل شود | محاسبات PCA، covariance و eigendecomposition |
-| شکیب | تکمیل شود | projection، reconstruction و ارزیابی خطا |
-| صبا | تکمیل شود | nearest neighbor و مقایسه Euclidean/Cosine |
+| یاسمن | [@yasaman1994](https://github.com/yasaman1994) | یکپارچه‌سازی، مستندسازی و کنترل اجرای نهایی |
+| امین | [@Aminbyt](https://github.com/Aminbyt) | محاسبات PCA، covariance و eigendecomposition |
+| شکیب | [@Shakib1380](https://github.com/Shakib1380) | projection، reconstruction و ارزیابی خطا |
+| صبا | [@SabaHesaraki](https://github.com/SabaHesaraki) | nearest neighbor و مقایسه Euclidean/Cosine |
 
 این تقسیم کار پیشنهادی است. همه اعضا باید مسیر کامل پروژه را درک کنند و Pull Request یکدیگر را مرور کنند.
 
@@ -160,12 +160,11 @@ jupyter lab
 
 - [x] دریافت و بررسی دیتاست
 - [x] flatten تصاویر
-- [x] جداسازی اولیه train و test
+- [x] جداسازی تصادفی و متوازن train و test با seed ثابت
 - [x] mean face و مرکزسازی
 - [x] واریانس و کوواریانس
 - [x] Gram matrix و eigendecomposition
 - [x] نمایش اولیه eigenfaces
-- [ ] اصلاح split به حالت تصادفی stratified با seed ثابت
 - [ ] projection و reconstruction
 - [ ] reconstruction error
 - [ ] nearest neighbor و accuracy
