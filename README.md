@@ -116,7 +116,8 @@ eigenfaces-from-scratch/
 ├── docs/
 │   ├── PROJECT_PLAN.md
 │   ├── LEARNING_GUIDE.md
-│   └── TEAM_GUIDE.md
+│   ├── TEAM_GUIDE.md
+│   └── PRESENTATION_PLAN.md
 └── outputs/
     └── figures/
 ```
@@ -155,7 +156,7 @@ jupyter lab
 - پیش از شروع کار جدید، آخرین نسخه `main` دریافت می‌شود.
 - برای کاهش conflict، دو نفر هم‌زمان یک بخش از نوت‌بوک را ویرایش نمی‌کنند.
 
-دستورهای دقیق clone، branch، commit، push و Pull Request در [راهنمای همکاری تیم](docs/TEAM_GUIDE.md) آمده است. جزئیات برنامه و Definition of Done در [برنامه پروژه](docs/PROJECT_PLAN.md) نوشته شده است. دلیل تصمیم‌ها، فرمول‌ها، روش راستی‌آزمایی و ممیزی نوت‌بوک نیز در [راهنمای آموزشی](docs/LEARNING_GUIDE.md) قرار دارد.
+دستورهای دقیق clone، branch، commit، push و Pull Request در [راهنمای همکاری تیم](docs/TEAM_GUIDE.md) آمده است. جزئیات برنامه و Definition of Done در [برنامه پروژه](docs/PROJECT_PLAN.md) نوشته شده است. دلیل تصمیم‌ها، فرمول‌ها، روش راستی‌آزمایی و ممیزی نوت‌بوک نیز در [راهنمای آموزشی](docs/LEARNING_GUIDE.md) قرار دارد. سناریوی دموی تعاملی و تقسیم زمان ارائه در [برنامه ارائه](docs/PRESENTATION_PLAN.md) ثبت شده است.
 
 ## وضعیت فعلی
 
