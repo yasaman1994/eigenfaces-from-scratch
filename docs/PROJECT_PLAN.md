@@ -117,11 +117,11 @@ Euclidean distance و Cosine similarity ممکن است برای بعضی تصو
 | عضو | GitHub | مسئولیت اصلی | اولین خروجی |
 |---|---|---|---|
 | یاسمن | [@yasaman1994](https://github.com/yasaman1994) | یکپارچه‌سازی، README، کنترل leakage و اجرای نهایی | ساختار نوت‌بوک و checklist |
-| امین | [@Aminbyt](https://github.com/Aminbyt) | PCA از صفر و کنترل‌های ریاضی | eigenvalues، eigenvectors و orthogonality check |
-| شکیب | [@Shakib1380](https://github.com/Shakib1380) | projection، reconstruction و error | تصاویر بازسازی و error curve |
+| شکیب | [@Shakib1380](https://github.com/Shakib1380) | بازبینی ریاضی PCA، covariance، eigendecomposition و SVD | کنترل eigenvalues، eigenvectors، orthogonality و مسیر SVD |
+| امین | [@Aminbyt](https://github.com/Aminbyt) | projection، reconstruction و error | تصاویر بازسازی و error curve |
 | صبا | [@SabaHesaraki](https://github.com/SabaHesaraki) | nearest neighbor و آزمایش تیم ۴ | accuracy و مقایسه Euclidean/Cosine |
 
-این جدول پیشنهادی است و پس از توافق اعضا قابل تغییر خواهد بود. هر بخش باید حداقل توسط یک عضو دیگر review شود.
+شکیب به‌دلیل تسلط بیشتر بر ریاضیات، بازبین اصلی بخش ریاضی است؛ اما هر عضو باید بتواند منطق کل مسیر PCA را با زبان خودش توضیح دهد. این جدول پس از توافق اعضا قابل تغییر است و هر بخش باید حداقل توسط یک عضو دیگر review شود.
 
 ## برنامه سه‌روزه
 

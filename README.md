@@ -115,7 +115,8 @@ eigenfaces-from-scratch/
 ├── eigenfaces_from_scratch.ipynb
 ├── docs/
 │   ├── PROJECT_PLAN.md
-│   └── LEARNING_GUIDE.md
+│   ├── LEARNING_GUIDE.md
+│   └── TEAM_GUIDE.md
 └── outputs/
     └── figures/
 ```
@@ -137,9 +138,9 @@ jupyter lab
 
 | عضو | GitHub username | مسئولیت پیشنهادی |
 |---|---|---|
-| یاسمن | [@yasaman1994](https://github.com/yasaman1994) | یکپارچه‌سازی، مستندسازی و کنترل اجرای نهایی |
-| امین | [@Aminbyt](https://github.com/Aminbyt) | محاسبات PCA، covariance و eigendecomposition |
-| شکیب | [@Shakib1380](https://github.com/Shakib1380) | projection، reconstruction و ارزیابی خطا |
+| یاسمن | [@yasaman1994](https://github.com/yasaman1994) | یکپارچه‌سازی، مستندسازی، کنترل data leakage و اجرای نهایی |
+| شکیب | [@Shakib1380](https://github.com/Shakib1380) | بازبینی ریاضی PCA، covariance، eigendecomposition و مقایسه با SVD |
+| امین | [@Aminbyt](https://github.com/Aminbyt) | projection، reconstruction، خطای بازسازی و نمودارها |
 | صبا | [@SabaHesaraki](https://github.com/SabaHesaraki) | nearest neighbor و مقایسه Euclidean/Cosine |
 
 این تقسیم کار پیشنهادی است. همه اعضا باید مسیر کامل پروژه را درک کنند و Pull Request یکدیگر را مرور کنند.
@@ -154,7 +155,7 @@ jupyter lab
 - پیش از شروع کار جدید، آخرین نسخه `main` دریافت می‌شود.
 - برای کاهش conflict، دو نفر هم‌زمان یک بخش از نوت‌بوک را ویرایش نمی‌کنند.
 
-جزئیات برنامه و Definition of Done در [برنامه پروژه](docs/PROJECT_PLAN.md) نوشته شده است. دلیل تصمیم‌ها، فرمول‌ها، روش راستی‌آزمایی و ممیزی نوت‌بوک نیز در [راهنمای آموزشی](docs/LEARNING_GUIDE.md) قرار دارد.
+دستورهای دقیق clone، branch، commit، push و Pull Request در [راهنمای همکاری تیم](docs/TEAM_GUIDE.md) آمده است. جزئیات برنامه و Definition of Done در [برنامه پروژه](docs/PROJECT_PLAN.md) نوشته شده است. دلیل تصمیم‌ها، فرمول‌ها، روش راستی‌آزمایی و ممیزی نوت‌بوک نیز در [راهنمای آموزشی](docs/LEARNING_GUIDE.md) قرار دارد.
 
 ## وضعیت فعلی
 
