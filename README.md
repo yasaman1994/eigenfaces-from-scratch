@@ -150,7 +150,7 @@ jupyter lab
 
 - شاخه `main` همیشه باید قابل‌اجرا باقی بماند.
 - هر کار در یک branch جدا انجام می‌شود.
-- نام branch روشن و مرتبط با کار انتخاب می‌شود؛ مانند `amin/pca-math`.
+- نام branch روشن و مرتبط با کار انتخاب می‌شود؛ مانند `amin/add-reconstruction`.
 - commitها کوچک و دارای پیام مشخص هستند.
 - تغییرها با Pull Request بررسی و سپس وارد `main` می‌شوند.
 - پیش از شروع کار جدید، آخرین نسخه `main` دریافت می‌شود.
@@ -161,10 +161,10 @@ jupyter lab
 ## وضعیت فعلی
 
 - [x] دریافت و بررسی دیتاست
-- [x] flatten تصاویر
 - [x] جداسازی تصادفی و متوازن train و test با seed ثابت
+- [x] flatten تصاویر
 - [x] mean face و مرکزسازی
-- [x] واریانس و کوواریانس
+- [x] محاسبه واریانس کل داده واقعی و کنترل حفظ آن
 - [x] Gram matrix و eigendecomposition
 - [x] نمایش اولیه eigenfaces
 - [ ] projection و reconstruction

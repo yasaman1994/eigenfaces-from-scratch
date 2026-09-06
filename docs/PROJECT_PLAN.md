@@ -65,21 +65,20 @@ Euclidean distance و Cosine similarity ممکن است برای بعضی تصو
 4. split داده
 5. flatten و بررسی shapeها
 6. mean face و centering
-7. مثال کوچک variance و covariance
-8. Gram matrix
-9. eigenvalues و eigenvectors
-10. مرتب‌سازی، normalization و کنترل orthogonality
-11. نمایش eigenfaces
-12. projection
-13. reconstruction
-14. reconstruction error و نمودار آن
-15. nearest neighbor دستی با Euclidean
-16. nearest neighbor دستی با Cosine
-17. accuracy و مقایسه معیارها
-18. نمونه‌های همسایه متفاوت
-19. نمونه موفق و شکست
-20. مقایسه حداقلی با SVD
-21. نتیجه‌گیری و محدودیت‌ها
+7. محاسبه total variance و ساخت Gram matrix از داده واقعی train
+8. محاسبه و مرتب‌سازی eigenvalues و eigenvectors
+9. ساخت، normalization و کنترل orthogonality مربوط به eigenfaces
+10. نمایش eigenfaces و cumulative explained variance
+11. projection
+12. reconstruction
+13. reconstruction error و نمودار آن
+14. nearest neighbor دستی با Euclidean
+15. nearest neighbor دستی با Cosine
+16. accuracy و مقایسه معیارها
+17. نمونه‌های همسایه متفاوت
+18. نمونه موفق و شکست
+19. مقایسه حداقلی با SVD
+20. نتیجه‌گیری و محدودیت‌ها
 
 ## کنترل شکل ماتریس‌ها
 
@@ -99,18 +98,20 @@ Euclidean distance و Cosine similarity ممکن است برای بعضی تصو
 
 حداکثر rank داده train پس از مرکزسازی `n_train - 1 = 319` است.
 
-## کنترل‌های پذیرش فنی
+## معیارهای پذیرش فنی
 
-- [ ] میانگین ستون‌های `X_train_centered` تقریباً صفر است.
-- [ ] eigenvalueها نزولی مرتب شده‌اند.
-- [ ] eigenfaceهای انتخاب‌شده تقریباً طول واحد دارند.
-- [ ] eigenfaceها تقریباً متعامدند.
-- [ ] shape کد فشرده برای `n` تصویر و `k` مؤلفه برابر `(n, k)` است.
-- [ ] با افزایش `k`، reconstruction error افزایش پیدا نمی‌کند.
-- [ ] mean و basis فقط از train ساخته شده‌اند.
-- [ ] accuracy فقط روی test گزارش شده است.
-- [ ] نمونه موفق و شکست قابل مشاهده است.
-- [ ] نوت‌بوک با Restart Kernel and Run All اجرا می‌شود.
+این فهرست تعریف می‌کند نتیجه نهایی چه شرایطی باید داشته باشد و برای نمایش وضعیت روزانه پروژه استفاده نمی‌شود. وضعیت جاری فقط در بخش «وضعیت فعلی» فایل [README](../README.md) نگهداری می‌شود.
+
+- میانگین ستون‌های `X_train_centered` تقریباً صفر است.
+- eigenvalueها نزولی مرتب شده‌اند.
+- eigenfaceهای انتخاب‌شده تقریباً طول واحد دارند.
+- eigenfaceها تقریباً متعامدند.
+- shape کد فشرده برای `n` تصویر و `k` مؤلفه برابر `(n, k)` است.
+- با افزایش `k`، reconstruction error افزایش پیدا نمی‌کند.
+- mean و basis فقط از train ساخته شده‌اند.
+- accuracy فقط روی test گزارش شده است.
+- نمونه موفق و شکست قابل مشاهده است.
+- نوت‌بوک با Restart Kernel and Run All اجرا می‌شود.
 
 ## تقسیم مسئولیت پیشنهادی
 
